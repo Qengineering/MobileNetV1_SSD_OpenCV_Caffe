@@ -1,4 +1,4 @@
-# MobileNetV1_SSD for the Deep Learning model of OpenCV
+# MobileNetV1_SSD for the Deep Learning modul of OpenCV
 A example of OpenCV dnn framework working on a bare Raspberry Pi.
 Papers <br/>
 https://arxiv.org/abs/1611.10012 <br/>
