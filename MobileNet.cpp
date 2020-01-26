@@ -22,7 +22,7 @@ const char* class_video_Names[] = { "background",
 "motorbike", "person", "pottedplant",
 "sheep", "sofa", "train", "tvmonitor" };
 
-Mat detect_from_video(Mat &src)
+void detect_from_video(Mat &src)
 {
     Mat blobimg = dnn::blobFromImage(src, scaleFector, Size(300, 300), meanVal);
 
@@ -47,7 +47,6 @@ Mat detect_from_video(Mat &src)
 			putText(src, format("%s", class_video_Names[det_index]), Point(x1, y1-5) ,FONT_HERSHEY_SIMPLEX,1.0, Scalar(0, 0, 255), 2, 8, 0);
 		}
 	}
-    return src;
 }
 
 int main(int argc,char ** argv)
