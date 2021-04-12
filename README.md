@@ -11,7 +11,7 @@ Special made for a bare Raspberry Pi see: https://qengineering.eu/deep-learning-
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/MobileNetV1_SSD_OpenCV_Caffe/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/MobileNetV1_SSD_OpenCV_Caffe/archive/refs/heads/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
